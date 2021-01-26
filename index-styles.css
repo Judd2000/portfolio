@@ -1,0 +1,12 @@
+body {
+  background-color: #E4E0E0;
+}
+
+h1 {
+  background-color: #B9E1F0;
+  padding: 25px;
+}
+
+h2, p, h3, ol, li {
+  background-color: #F2F9FC;
+}
