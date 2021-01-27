@@ -1,12 +1,42 @@
 body {
   background-color: #E4E0E0;
+  padding-bottom:  50%;
 }
 
-h1 {
-  background-color: #B9E1F0;
-  padding: 25px;
+.menu {
+	list-style-type: none;
+	margin:  0;
+	padding:  0;
+	overflow:  hidden;
+	background-color: #B9E1F0;
 }
 
-h2, p, h3, ol, li {
-  background-color: #F2F9FC;
+.menubar {
+	display: inline;
+	font-family: Arial, sans-serif;
+	font-size:  24px;
 }
+
+.menubar:hover {
+	background-color: #E2F7FF;
+}
+
+h1, h2, h3 {
+	color: #005576;
+}
+
+li {
+	padding:  0px 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+
+
+
