@@ -1,0 +1,98 @@
+
+
+/* Shared CSS */
+.menubar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #C5F7FF;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menuelement {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+
+	text-decoration: none;
+	color: initial;
+	border: none;
+	float: left;
+	display: block;
+	color: black;
+	background-color: #C5F7FF;
+	text-align: center;
+	padding: 20px 10%;
+}
+
+
+
+.menuelement:hover {
+	background-color: #EBFCFF;
+}
+
+.main, .about, .Hobbies {
+	background-color: #E9FBFE;
+	align-items: center;
+	/* justify-content: center; */
+	text-align: center;
+	height: 12.5%;
+	width: 12.5%;
+}
+
+
+img {
+	height: 100%;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 700px){
+/* INDEX CSS */
+.flexbox_container {
+	display: flex;
+	justify-content: center;
+}
+
+
+.images {
+	width: 100px;
+	height: 100px;
+	background-color: #AFEAFF;
+}
+
+.text {
+	width: 100%;
+	background-color: #FFB86F;
+}
+}
+
+@media only screen and (min-width: 701px){
+.flexbox_container {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+
+.page {
+	flex-flow: column wrap;
+}
+
+.images {
+	width: 175px;
+	height: 175px;
+	background-color: #AFEAFF;
+}
+
+.text {
+	width: 100%;
+	background-color: #FFB86F;
+}	
+} 
